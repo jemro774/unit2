@@ -14,4 +14,11 @@ elif colr == 'red' and num == 4:
     print('You will win the lottery')
 elif colr == 'blue' and num == 1:
     print('You will go blind')
-
+elif colr == 'blue' and num == 2:
+    print('You will win a trip to Costa Rica')
+elif colr == 'blue' and num == 3:
+    print('You will find a four-leaf clover')
+elif colr == 'blue' and num == 4:
+    print('You will fail school')
+else:
+    print('Error')
