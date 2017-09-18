@@ -6,9 +6,9 @@ from random import randint
 nameUser = input('Enter your name: ')
 num = randint(1,5)
 if num == 1:
-    print('You suck at computer programming')
+    print('You are bad at computer programming')
 elif num == 2:
-    print('You will never be the man your mother is')
+    print('Is that your face? Or did your neck just throw up?')
 elif num == 3:
     print('Stop whining')
 elif num == 4:
