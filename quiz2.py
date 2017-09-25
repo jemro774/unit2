@@ -4,6 +4,7 @@
 
 num1 = int(input('Enter a number: '))
 num2 = int(input('Enter a second number: '))
+prod = int(input('What is the product of your two numbers? '))
 
 if num1>num2:
     print('The first number is bigger')
@@ -20,5 +21,10 @@ elif num2%3 == 0:
     print('Only the second number is divisible by 3')
 else:
     print('Neither number is divisble by 3')
+
+if num1*num2 == prod:
+    print('Correct')
+else:
+    print('Incorrect')
 
 
